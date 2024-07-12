@@ -20,8 +20,8 @@ const StandingsWidget = ({ onTeamSelect }) => {
       const { data } = await axios.get('https://api-football-v1.p.rapidapi.com/v3/standings', {
         params: { league: '39', season },
         headers: {
-            'X-RapidAPI-Key': '9267743386msh92e5f024d603044p153caajsn907045c73b07',
-            'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
+            'X-RapidAPI-Key': '',
+            'X-RapidAPI-Host': ''
           }
         });
 
