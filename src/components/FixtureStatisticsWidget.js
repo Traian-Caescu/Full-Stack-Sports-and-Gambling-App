@@ -16,8 +16,8 @@ const FixtureStatisticsWidget = ({ teamId, season }) => {
       try {
         const params = { team: teamId, season };
         const headers = {
-          'X-RapidAPI-Key': '9267743386msh92e5f024d603044p153caajsn907045c73b07',
-          'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
+          'X-RapidAPI-Key': '',
+          'X-RapidAPI-Host': ''
         };
         const fixtureResponse = await axios.get('https://api-football-v1.p.rapidapi.com/v3/fixtures', { params, headers });
         const statsPromises = fixtureResponse.data.response.map(fixture =>
@@ -59,8 +59,8 @@ const FixtureStatisticsWidget = ({ teamId, season }) => {
     try {
       const params = { fixture: fixtureId };
       const headers = {
-        'X-RapidAPI-Key': '9267743386msh92e5f024d603044p153caajsn907045c73b07',
-        'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
+        'X-RapidAPI-Key': '',
+        'X-RapidAPI-Host': ''
       };
       const { data } = await axios.get('https://api-football-v1.p.rapidapi.com/v3/odds', { params, headers });
 
