@@ -1,0 +1,66 @@
+.contactInfo {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+  }
+  
+  .contactInfo h2 {
+    color: #005073;
+    margin-bottom: 16px;
+  }
+  
+  .contactInfo p {
+    color: #333;
+    margin-bottom: 12px;
+  }
+  
+  .contactInfo ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contactInfo li {
+    margin-bottom: 8px;
+  }
+  
+  .contactInfo a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contactInfo .socialLinks {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+  }
+  
+  .contactForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contactForm button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contactForm button:hover {
+    background-color: #218838;
+  }
+  

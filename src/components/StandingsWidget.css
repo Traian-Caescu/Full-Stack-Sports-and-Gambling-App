@@ -1,0 +1,79 @@
+.containerStandings {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    margin-top: 20px;
+  }
+  
+  .containerStandings h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .containerStandings input, .containerStandings button {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .containerStandings input {
+    width: calc(100% - 22px); 
+    display: block;
+  }
+  
+  .containerStandings button {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .containerStandings button:hover {
+    background-color: #004494;
+  }
+  
+  .containerStandings table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .containerStandings th, .containerStandings td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .containerStandings th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .containerStandings td {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .containerStandings img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .loading, .error {
+    color: #d9534f;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .containerStandings tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  

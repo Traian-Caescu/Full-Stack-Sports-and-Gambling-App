@@ -1,0 +1,110 @@
+
+.understanding-addiction-container {
+    background-color: #1a1a2e;
+    color: #e6e6e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.understanding-addiction-page {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #16213e;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.understanding-addiction-page h1, .understanding-addiction-page h2 {
+    text-align: center;
+    color: #e1b12c;
+}
+
+.understanding-addiction-page p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+}
+
+.data-entry-form {
+    background: linear-gradient(to right, #0f3460, #16213e);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #e1b12c;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    background: #0f3460;
+    border: 2px solid #4158d0;
+    border-radius: 5px;
+    color: #e6e6e6;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #e1b12c;
+    outline: none;
+}
+
+.form-actions button {
+    background-color: #e1b12c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-right: 10px;
+    color: #16213e;
+    font-weight: bold;
+}
+
+.form-actions button:hover {
+    background-color: #ffbe0b;
+    box-shadow: 0 0 10px #ffbe0b;
+}
+
+.charts-container {
+    margin-top: 30px;
+}
+
+.charts-container h2 {
+    margin-bottom: 15px;
+    color: #e1b12c;
+}
+
+.tooltip {
+    background-color: #16213e;
+    border: 1px solid #e1b12c;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.legend {
+    color: #e6e6e6;
+    background-color: #16213e;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 1px solid #4158d0;
+}
+
+@media (min-width: 768px) {
+    .charts-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}

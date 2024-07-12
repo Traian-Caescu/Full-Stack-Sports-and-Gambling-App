@@ -1,0 +1,105 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+  
+  .chat-introduction {
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    color: #343a40;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .chat-introduction h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .chat-introduction p {
+    margin-bottom: 10px;
+  }
+  
+  .chat-introduction ul {
+    padding-left: 20px;
+    list-style-type: square;
+  }
+  
+  .chat-introduction li {
+    margin-bottom: 8px;
+  }
+  
+  .sign-out {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sign-out button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-out button:hover {
+    background-color: #c82333;
+  }
+
+  .additional-resources {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f9fa; 
+    border-radius: 8px;
+    border: 1px solid #dfe3e8; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    max-width: 750px; 
+}
+
+.additional-resources h3 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.additional-resources p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.additional-resources ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.additional-resources li {
+    background-color: #ffffff; 
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+}
+
+.additional-resources a {
+    color: #0077cc; 
+    text-decoration: none; 
+    transition: color 0.3s;
+}
+
+.additional-resources a:hover {
+    color: #0056a3; 
+}

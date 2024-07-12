@@ -1,0 +1,118 @@
+.feature-slideshow {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 40px auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background: #f8f9fa; 
+}
+
+.feature-slideshow .slick-dots li button:before {
+  color: #007bff;
+}
+
+.feature-slideshow .slick-dots li.slick-active button:before {
+  color: #d63384;
+}
+
+.feature-slideshow h2 {
+  text-align: center;
+  color: #343a40; 
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.matches-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.match-card {
+  background: linear-gradient(145deg, #ffffff, #e6e6e6); 
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.match-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.team-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.team-name {
+  font-weight: bold;
+  color: #007bff; 
+  margin: 5px 0;
+}
+
+.versus {
+  color: #6c757d;
+  margin: 5px 0;
+}
+
+.match-details {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.odds-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.odds {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-weight: bold;
+  margin: 0 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.odds:hover {
+  background-color: #0056b3;
+}
+
+.bet-button {
+  background-color: #28a745; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+  width: 100%; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent; 
+}
+
+.bet-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+  border-color: #1e7e34; 
+}
+
+@media (max-width: 767px) {
+  .matches-container {
+    grid-template-columns: 1fr;
+  }
+
+  .match-card {
+    width: auto; 
+  }
+}

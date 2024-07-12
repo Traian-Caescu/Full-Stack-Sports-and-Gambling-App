@@ -1,0 +1,63 @@
+body, html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e9eff1;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 100px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  width: 350px;
+  margin: auto;
+}
+
+.room label {
+  font-size: 18px;
+  color: #5a5a5a;
+}
+
+.room input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s;
+}
+
+.room input:focus {
+  border-color: #0056b3;
+}
+
+.room button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.room button:hover {
+  background-image: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+
+@media (max-width: 768px) {
+  .room {
+    width: 90%;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,46 @@
+.faq {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin: 40px auto; 
+  max-width: 800px;
+}
+
+.faq .faq-item {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.faq .faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq .faq-item h3 {
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.faq .faq-item p {
+  color: #666;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 0;
+  padding: 0 20px; 
+}
+
+.faq .faq-item.active h3 {
+  color: #007bff;
+}
+
+.faq .faq-item.active p {
+  max-height: 500px; 
+  padding-top: 10px; 
+}
