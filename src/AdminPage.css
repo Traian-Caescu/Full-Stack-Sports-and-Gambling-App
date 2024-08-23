@@ -22,7 +22,7 @@
 }
 
 .admin-contact-table th, .admin-contact-table td, .admin-chat-message {
-    padding: 12px;
+    padding: 12px; 
     border-bottom: 1px solid #eee; 
 }
 
