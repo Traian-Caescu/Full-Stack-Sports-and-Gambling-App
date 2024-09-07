@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth, db } from './firebase-config';
 import { collection, getDocs, query, orderBy, deleteDoc, doc, updateDoc, addDoc } from 'firebase/firestore';
-import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com'; 
 import './AdminPage.css';
 
 const AdminPage = () => {
