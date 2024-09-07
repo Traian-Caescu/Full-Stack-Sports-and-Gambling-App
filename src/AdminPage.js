@@ -5,7 +5,7 @@ import { collection, getDocs, query, orderBy, deleteDoc, doc, updateDoc, addDoc 
 import emailjs from 'emailjs-com'; 
 import './AdminPage.css';
 
-const AdminPage = () => {
+const AdminPage = () => { 
     const [user, setUser] = useState(null); 
     const [contactEntries, setContactEntries] = useState([]);
     const [editId, setEditId] = useState(null);
