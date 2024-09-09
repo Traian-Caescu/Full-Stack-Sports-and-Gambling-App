@@ -4,7 +4,7 @@ import { auth, db } from './firebase-config';
 import { collection, getDocs, query, orderBy, deleteDoc, doc, updateDoc, addDoc } from 'firebase/firestore';
 import emailjs from 'emailjs-com'; 
 import './AdminPage.css';
-
+ 
 const AdminPage = () => { 
     const [user, setUser] = useState(null); 
     const [contactEntries, setContactEntries] = useState([]);
