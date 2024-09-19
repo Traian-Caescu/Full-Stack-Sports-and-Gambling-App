@@ -4,7 +4,7 @@ const FeatureSection = () => (
     <section className="features">
       <h2>Our Top Betting Features</h2>
       <div className="feature-grid">
-        <div className="feature">
+        <div className="feature"> 
           <h3>Live Betting</h3>
           <p>Engage in the excitement with real-time betting as the action unfolds during the game.</p>
         </div>
