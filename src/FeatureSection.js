@@ -9,7 +9,7 @@ const FeatureSection = () => (
           <p>Engage in the excitement with real-time betting as the action unfolds during the game.</p>
         </div>
         <div className="feature">
-          <h3>Fantasy Leagues</h3>
+          <h3>Fantasy Leagues</h3> 
           <p>Create your dream team and compete in various fantasy leagues to win big.</p>
         </div>
         <div className="feature">
