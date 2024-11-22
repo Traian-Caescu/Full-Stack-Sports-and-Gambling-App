@@ -9,7 +9,7 @@ const AdminPage = () => {
     const [user, setUser] = useState(null); 
     const [contactEntries, setContactEntries] = useState([]);
     const [editId, setEditId] = useState(null);
-    const [editForm, setEditForm] = useState({ name: '', email: '', message: '' }); 
+    const [editForm, setEditForm] = useState({ name: '', email: '', message: '' });  
     const [sendEmailForm, setSendEmailForm] = useState({ to_name: '', to_email: '', message: '' });
     const [error, setError] = useState('');
     const [antiAddictionMessages, setAntiAddictionMessages] = useState([]);
