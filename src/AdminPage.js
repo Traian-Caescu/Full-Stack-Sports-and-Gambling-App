@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com';
 import './AdminPage.css';
  
 const AdminPage = () => { 
-    const [user, setUser] = useState(null); 
+    const [user, setUser] = useState(null);  
     const [contactEntries, setContactEntries] = useState([]);
     const [editId, setEditId] = useState(null);
     const [editForm, setEditForm] = useState({ name: '', email: '', message: '' });  
